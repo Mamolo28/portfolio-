@@ -1,0 +1,112 @@
+body {background-color:Hex #939597}
+
+
+
+/* Navigation Bar CSS */
+.Nav_top{
+    overflow: hidden;
+    
+}
+
+.nav_left{
+    width: 30px;
+    height: 30px;
+    padding:14px 16px;
+    float: left;
+}
+
+
+.nav_right ,a  {
+    color: black;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+}
+
+
+
+.nav_right, a:hover{
+    color: red;
+}
+
+.nav_left{
+    color: red; 
+}
+
+
+hr{
+    border-bottom: 1px solid red;
+}
+
+/**profile picture CSS **/
+
+.profile_picture {
+    float: right;
+    padding-right: 150px;
+    width: 100%;
+}
+.profile_picture, .profile{
+    width: 550px;
+    height: 550px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: flex;
+}
+
+/** Name Styling CSS **/
+.Name_First {
+    text-align: center;
+
+}
+
+.fname{
+    padding-top: 100px;
+    line-height: 0.9;
+    font-size: 90px;
+    font-family: "Audiowide";
+}
+
+/** Moving Name Area **/
+.move_joe{
+    float: left;
+    padding-left: 270px;
+}
+
+.move_elysium{
+    float: left;
+    padding-left: 300px;
+
+}
+
+.move_mamolo{
+    float: left;
+    padding-left: 315px;
+}
+
+.discription{
+    float: left;
+    padding-left: 350px;
+    font-size: 20px;
+}
+
+/** about style**/
+.About
+{
+    padding-top: 400px;
+    text-align: center;
+}
+.back-color{
+    background-color: bisque;
+}
+
+
+
+
+
+
+
