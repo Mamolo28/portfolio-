@@ -95,14 +95,19 @@ hr{
 }
 
 /** about style**/
-.About
-{
-    padding-top: 400px;
+.About_Container, h1 {
+    padding-top: 300px;
     text-align: center;
+    
 }
-.back-color{
-    background-color: bisque;
+p{
+    background-color: rgba(24, 20, 14, 0.142);
+    border: 2px solid rgba(98, 37, 9, 0.963);
+    border-radius: 10px;
+    margin: 100px 100px 100px 100px;
 }
+    
+
 
 
 
