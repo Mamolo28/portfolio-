@@ -95,18 +95,31 @@ hr{
 }
 
 /** about style**/
-.About_Container, h1 {
-    padding-top: 300px;
+.About_Container{
+    margin: 500px 500px 500px 250px ;
+    background-color: lightgrey;
+    width: 1000px;
+    height: 200px;
     text-align: center;
-    
+    border: 2px solid rgba(142, 106, 40, 0.447);
+    border-radius: 15px;
+    padding: 50px 50px 50px 50px;
 }
-p{
-    background-color: rgba(24, 20, 14, 0.142);
-    border: 2px solid rgba(98, 37, 9, 0.963);
-    border-radius: 10px;
-    margin: 100px 100px 100px 100px;
+.About_Exp{
+    text-align: justify;
+    font-size: 1em;
 }
-    
+.About_Move{
+    font-size: 3em;
+}
+
+/**Project style**/
+.Project_Container{
+    margin: 500px 500px 500px 500px ;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
 
 
 
