@@ -1,4 +1,5 @@
-body {background-color:Hex #939597}
+body {background-color:black}
+
 
 
 
@@ -9,6 +10,7 @@ body {background-color:Hex #939597}
 }
 
 .nav_left{
+
     width: 30px;
     height: 30px;
     padding:14px 16px;
@@ -17,7 +19,7 @@ body {background-color:Hex #939597}
 
 
 .nav_right ,a  {
-    color: black;
+    color: aliceblue;
     text-align: center;
     padding:14px 16px;
     text-decoration: none;
@@ -28,70 +30,35 @@ body {background-color:Hex #939597}
 
 
 .nav_right, a:hover{
-    color: red;
+    color: rgb(71, 246, 48);
 }
 
 .nav_left{
-    color: red; 
+    color: rgb(71, 246, 48);
 }
 
-
-hr{
-    border-bottom: 1px solid red;
-}
-
-/**profile picture CSS **/
-
-.profile_picture {
-    float: right;
-    padding-right: 150px;
-    width: 100%;
-}
-.profile_picture, .profile{
-    width: 550px;
-    height: 550px;
-    align-self: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    display: flex;
-}
 
 /** Name Styling CSS **/
 .Name_First {
     text-align: center;
+    color: aliceblue;
 
 }
 
 .fname{
-    padding-top: 100px;
-    line-height: 0.9;
-    font-size: 90px;
+    float: left;
+    margin-left: 80px;
+    font-size: 60px;
     font-family: "Audiowide";
-}
-
-/** Moving Name Area **/
-.move_joe{
-    float: left;
-    padding-left: 270px;
-}
-
-.move_elysium{
-    float: left;
-    padding-left: 300px;
-
-}
-
-.move_mamolo{
-    float: left;
-    padding-left: 315px;
+    color: Hex #939597;
 }
 
 .discription{
     float: left;
     padding-left: 350px;
     font-size: 20px;
+    display: flex;
+    color: Hex #939597;
 }
 
 /** about style**/
