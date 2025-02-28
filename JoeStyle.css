@@ -1,4 +1,7 @@
-body {background-color:black}
+body {background-color:black;
+    
+}
+
 
 
 
@@ -10,21 +13,23 @@ body {background-color:black}
 }
 
 .nav_left{
-
     width: 30px;
     height: 30px;
     padding:14px 16px;
     float: left;
+    margin-left: 200px;
 }
 
 
 .nav_right ,a  {
     color: aliceblue;
     text-align: center;
-    padding:14px 16px;
+    padding:5px 5px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
     float: right;
+    margin-right: 30px;
+   
 }
 
 
@@ -39,27 +44,57 @@ body {background-color:black}
 
 
 /** Name Styling CSS **/
-.Name_First {
-    text-align: center;
-    color: aliceblue;
 
-}
-
-.fname{
+.hi{
     float: left;
-    margin-left: 80px;
-    font-size: 60px;
-    font-family: "Audiowide";
-    color: Hex #939597;
-}
-
-.discription{
-    float: left;
-    padding-left: 350px;
+    margin-top: 100PX;
+    margin-left: 200px;
     font-size: 20px;
-    display: flex;
-    color: Hex #939597;
+    color: rgb(71, 246, 48);
+    font-family: 'Space-Grotesk', sans-serif;
 }
+
+.Name{
+    margin-left: 200px;
+    margin-top: 130PX;
+    color: aliceblue;
+    font-size: 70px;
+    font-family: 'Space-Grotesk', sans-serif;
+    
+    
+}
+
+.Discription{
+    margin-left: 200px;
+    margin-top: 130PX;
+    color: rgb(167, 180, 190);
+    font-size: 70px;
+    font-family: 'Space-Grotesk', sans-serif;
+}
+
+.selfExplaination{
+    max-width: 800px;
+    margin-left: 200px;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(195, 210, 223);
+
+}
+
+.Button_CV
+{
+    background-color:  black;
+    color: rgb(71, 246, 48); 
+    border: 2px solid rgb(71, 246, 48);
+    border-radius: 12px;
+    width: 150px;
+    height: 50px;
+    margin-left: 200px;
+    
+}
+
+
+
 
 /** about style**/
 .About_Container{
