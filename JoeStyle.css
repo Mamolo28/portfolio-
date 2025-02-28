@@ -93,27 +93,40 @@ body {background-color:black;
     
 }
 
+.menuButtomRight{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    float: left;
+    margin-left: 50px;
+    position: fixed;
+    
+}
+
+
 
 
 
 /** about style**/
 .About_Container{
-    margin: 500px 500px 500px 250px ;
-    background-color: lightgrey;
-    width: 1000px;
-    height: 200px;
-    text-align: center;
-    border: 2px solid rgba(142, 106, 40, 0.447);
-    border-radius: 15px;
-    padding: 50px 50px 50px 50px;
+    margin-left: 100px;
+    margin-top: 300px;
+    color: aliceblue;
 }
+
+.About_Move{
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Space-Grotesk', sans-serif;
+    color: rgb(71, 246, 48); 
+
+}
+
 .About_Exp{
     text-align: justify;
     font-size: 1em;
 }
-.About_Move{
-    font-size: 3em;
-}
+
 
 /**Project style**/
 .Project_Container{
