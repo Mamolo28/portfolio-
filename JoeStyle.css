@@ -123,9 +123,53 @@ body {background-color:black;
 }
 
 .About_Exp{
+    max-width: 800px;
+    margin-left: 100px;
     text-align: justify;
-    font-size: 1em;
+    font-size: 20px;
+    color: rgb(195, 210, 223);
 }
+
+/*Skills style*/
+
+.Impa{
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 50px;
+    font-family: 'Space-Grotesk', sans-serif;
+    color: rgb(71, 246, 48); 
+}
+
+.catiguries{
+    margin-left: 230px;
+    color:  rgb(195, 210, 223);
+    font-family: 'Space-Grotesk', sans-serif;
+}
+
+.font_EndLogo{
+    margin-left: 300px;
+    display: flex;
+    gap: 100px;
+}
+
+.iconName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    height: 50px
+   
+}
+
+.logoTEXT{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(195, 210, 223);
+}
+
+
 
 
 /**Project style**/
