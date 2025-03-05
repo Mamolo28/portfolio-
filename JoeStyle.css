@@ -1,10 +1,12 @@
+
+*{
+    margin: 0;  
+    box-sizing: border-box;
+}
+
 body {background-color:black;
     
 }
-
-
-
-
 
 /* Navigation Bar CSS */
 .Nav_top{
@@ -93,6 +95,8 @@ body {background-color:black;
     
 }
 
+/*side menu */
+
 .menuButtomRight{
     display: flex;
     flex-direction: column;
@@ -103,19 +107,11 @@ body {background-color:black;
     visibility: hidden;
 }
 
-
-
-
-
-
-
 .Vertical_line{
     border-left: 5px solid rgb(195, 210, 223);
     margin-left: 15px;
     height: 500px;
 }
-
-
 
 
 
@@ -278,15 +274,254 @@ input[type=text] {
     color: rgb(195, 210, 223); 
  }
 
+ 
+
+
+ @media (max-width: 600px) {
+    .nav_right{
+        visibility: hidden;
+    }
+
+    .nav_left{
+        width: 30px;
+        height: 30px;
+        padding:14px 16px;
+        float: left;
+        margin-left: 80px;
+    }
+
+    .hi{
+        float: left;
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 15px;
+        color: rgb(71, 246, 48);
+        font-family: 'Space-Grotesk', sans-serif;
+    }
+
+    .Name{
+        margin-left: 50px;
+        margin-top: 100PX;
+        color: aliceblue;
+        font-size: 45px;
+        font-family: 'Space-Grotesk', sans-serif;
+    }
+
+    .Discription{
+        margin-left: 50px;
+        margin-top: 100PX;
+        color: rgb(167, 180, 190);
+        font-size: 30px;
+        font-family: 'Space-Grotesk', sans-serif;
+    }
+    
+    .selfExplaination{
+        max-width: 400px;
+        margin-left: 50px;
+        text-align: justify;
+        font-size: 15px;
+        color: rgb(195, 210, 223);
+    
+    }
+    
+    .Button_CV
+    {
+        background-color:  black;
+        color: rgb(71, 246, 48); 
+        border: 2px solid rgb(71, 246, 48);
+        border-radius: 12px;
+        width: 130px;
+        height: 30px;
+        margin-left: 50px;
+        
+    }
+    
+    /*side menu */
+    
+    .menuButtomRight{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        float: left;
+        margin-left: 0px;
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .Vertical_line{
+        border-left: 3px solid rgb(195, 210, 223);
+        margin-left: 20px;
+        height: 500px;
+    }
+    
+    
+    
+    /** about style**/
+    .About_Container{
+        float: left;
+        margin-left: 50px;
+        margin-top: 100px;
+        color: aliceblue;
+    }
+    
+    .About_Move{
+        margin-left: 0px;
+        font-size: 30px;
+        font-family: 'Space-Grotesk', sans-serif;
+        color: rgb(71, 246, 48); 
+    
+    }
+    
+    .About_Exp{
+        max-width: 400px;
+        margin-left: 0px;
+        text-align: justify;
+        font-size: 15px;
+        color: rgb(195, 210, 223);
+    }
+    
+    /*Skills style*/
+    
+    .Impa{
+        margin-top: 400px;
+        margin-left: 50px;
+        font-size: 40px;
+        font-family: 'Space-Grotesk', sans-serif;
+        color: rgb(71, 246, 48); 
+    }
+    
+    .catiguries{
+        margin-left: 50px;
+        color:  rgb(195, 210, 223);
+        font-family: 'Space-Grotesk', sans-serif;
+    }
+    
+    .font_EndLogo{
+        margin-left: 50px;
+        display: flex;
+        gap: 100px;
+    }
+    
+    .iconName{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 50px;
+        height: 50px
+       
+    }
+    
+    .logoTEXT{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(195, 210, 223);
+    }
+    
+    
+    
+    
+    /**Send email style**/
+    
+    .position{
+        margin:auto;
+        width: 400px;
+        height: 1000px;
+        text-align: center;
+        align-items: center;
+    }
+    .sendEmail{
+        font-size: 50px;
+        font-family: 'Space-Grotesk', sans-serif;
+        color: rgb(71, 246, 48);
+    
+    }
+    
+    .contactMessage{
+        text-align: center;
+        color: rgb(195, 210, 223);
+        font-size: 20px;
+        font-family: 'Space-Grotesk', sans-serif;
+        text-align: justify;
+        margin-top: 0%;
+    }
+    .formContainer{
+        
+        display:flex;
+        margin-left: 20px;
+        padding-left: 0px;
+        width: 200px;
+        height: 20px;
+       
+        
+    }
+    
+    input[type=text] {
+        width: 80%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+       
+    }
+    .inputName{
+        width: 200%;
+        margin-top: 10%;
+      }
+    
+    
+      input[type=Email] {
+      width: 80%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    
+      }
+      .inputEmail{
+        width: 200%;
+        margin-top: 10px;
+      }
+    
+    
+      textarea{
+        width: 80%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+     
+        height:300px;
+       
+      }
+      .inputMessage{
+        width: 200%;
+        margin-top: 10px;
+      }
+      .btnpos{
+        
+        margin-top: 5px;
+        width: 200%;
+    
+      }  
+      .btnSendEmail{
+        background-color:  black;
+        color: rgb(71, 246, 48); 
+        border: 2px solid rgb(71, 246, 48);
+        border-radius: 12px;
+        width: 100px;
+        height: 20px;
+      }
+     /* Footer Disigned*/
+     .footerPositioning{
+        text-align: center;
+        color: rgb(195, 210, 223); 
+        font-size: 10px;
+     }
+    
 
 
 
 
-
-
-
-
-
+ }
 
 
 
