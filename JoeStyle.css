@@ -276,7 +276,8 @@ input[type=text] {
 
  
 
-
+/*Note for media queries max-with is for smallers screens while min-width is for larger screens. 
+always keep that on mind.*/
  @media (max-width: 600px) {
     .nav_right{
         visibility: hidden;
@@ -518,11 +519,15 @@ input[type=text] {
      }
     
 
+ }
 
+ @media (min-width: 1281px) {
 
+    
 
  }
 
+ 
 
 
 
